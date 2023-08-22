@@ -218,7 +218,7 @@ if __name__ == '__main__':
             os.startfile(appli)
 
         elif 'news' in query:
-
+               api_key = "3046ad7cd2b34529bae45d93c5ec935d"
             try:
                 jsonObj = urlopen(
                     '''https://newsapi.org / v1 / articles?source = the-times-of-india&sortBy = top&apiKey =\\times of India Api key\\''')
