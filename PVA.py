@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
         elif 'power point presentation' in query:
             speak("opening Power Point presentation")
-            power = r"C:\\Users\\GAURAV\\Desktop\\Minor Project\\Presentation\\Voice Assistant.pptx"
+            power = r"C:\\Users\\Praval\\Desktop\\Minor Project\\Presentation\\Voice Assistant.pptx"
             os.startfile(power)
 
         elif 'is love' in query:
@@ -252,7 +252,7 @@ if __name__ == '__main__':
 
         elif "don't listen" in query or "stop listening" in query:
             speak("for how much time you want to stop jarvis from listening commands")
-            a = int(takeCommand())
+            a = int(takeCommand(time(input(" ",:HH::MM::SS))
             print(a)
 
         elif "where is" in query:
@@ -314,7 +314,6 @@ if __name__ == '__main__':
 
             # Make a GET request to the OpenWeatherMap API
 
-            # Make a GET request to the OpenWeatherMap API
             response = requests.get(
                 f"http://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}")
             # Get the JSON data from the response
