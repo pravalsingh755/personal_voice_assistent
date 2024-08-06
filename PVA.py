@@ -190,7 +190,7 @@ if __name__ == '__main__':
             speak("If you talk then definitely your human.")
 
         elif "why you came to world" in query:
-            speak("Thanks to Gaurav. further It's a secret")
+            speak("Thanks to Praval. further It's a secret")
 
         elif 'power point presentation' in query:
             speak("opening Power Point presentation")
@@ -201,10 +201,10 @@ if __name__ == '__main__':
             speak("It is 7th sense that destroy all other senses")
 
         elif "who are you" in query:
-            speak("I am your virtual assistant created by Gaurav")
+            speak("I am your virtual assistant created by Praval")
 
         elif 'reason for you' in query:
-            speak("I was created as a Minor project by Mister Gaurav ")
+            speak("I was created as a Minor project by Praval ")
 
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
