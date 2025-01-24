@@ -1,6 +1,27 @@
-Virtual Assistant Project
+ Virtual Assistant Project :-
 Overview
 This project is a Python-based virtual assistant that performs various tasks through voice commands. It can interact with the user, perform internet searches, open applications, fetch weather information, tell jokes, and much more. The assistant utilizes several libraries and APIs to deliver these functionalities interactively and efficiently.
+# Voice Assistant Project
+
+## Introduction
+This Python-based Voice Assistant project performs various tasks using voice commands. It utilizes libraries such as `pyttsx3`, `speech_recognition`, `Wikipedia`, and more. The assistant can search Wikipedia, play music, open websites, provide weather updates, send emails, and much more.
+
+## Features
+- Greet the user based on the time of day.
+- Search Wikipedia for summaries.
+- Open popular websites like YouTube, Google, and Stack Overflow.
+- Play music via Spotify.
+- Fetch weather updates using OpenWeatherMap API.
+- Perform system operations like shutting down, restarting, and hibernating.
+- Send emails via voice commands.
+- Display jokes, calculate mathematical expressions, and read news headlines.
+
+## Prerequisites
+To run this project, you need the following:
+- Python 3.6+
+- Required Python libraries (install them using `pip`):
+  ```bash
+  pip install pyttsx3 speechrecognition wikipedia webbrowser pyjokes requests beautifulsoup4 wolframalpha
 
 Features
 Wikipedia Integration: Retrieves summaries from Wikipedia for user queries.
@@ -83,5 +104,7 @@ Future Enhancements
 Add support for additional APIs for enhanced functionality.
 Integrate machine learning for personalized responses.
 Improve voice recognition accuracy and speed.
+
+
 Credits
 Developed by Praval Singh Chandel.
